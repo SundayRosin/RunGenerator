@@ -1,0 +1,9 @@
+This simple 220V power interface is intended as an interface for monitoring electric equipments and devices using a computer. 
+The interface only senses whether the device being monitored is turned on or off. The most important aspect of the circuit is 
+the galvanic isolation between the AC main line being monitored and the interface to the computer. This is done with the use of the 
+optocoupler IC TIL111 but a suitable replacement can be used too.
+To avoid having to modify the circuit for each device being monitored, the circuit monitors the device’s AC power line directly.
+The resistor R1 lets a current of around 0.5 mA through the optocoupler LED. The other half of the current is rectified through the 
+diode D1. It is obvious that the current to the optocoupler LED is half wave rectified. This means that the phototransistor part of
+ the optocoupler receives only light impulses of around 100uA. The capacitor C1 filters out the current pulsation and maintains a 
+smooth output current. In case the current pulsation is needed, just remove C1.
