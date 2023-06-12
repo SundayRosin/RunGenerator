@@ -1,0 +1,1 @@
+d:\Program Files (x86)\Keil_v5\ARM\ARMCC\bin\fromelf.exe --bin Objects\RunGenerator.axf --output Objects\RunGenerator.bin
